@@ -3,8 +3,8 @@ import cv2
 import serial
 import time
 from twilio.rest import Client
-account_sid = 'your-twilio-sid'
-auth_token = 'your-twilio-token'
+account_sid = 'your-twilio-sid-add'
+auth_token = 'your-twilio-token-add'
 client = Client(account_sid, auth_token)
 check_sms = 0
 fire_cascade = cv2.CascadeClassifier('fire_detection.xml')
